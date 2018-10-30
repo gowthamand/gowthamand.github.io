@@ -1,9 +1,0 @@
-title: Danilo Meneghel
-description: PHP, JS, Jquery, AngularJS, VueJS, ReactJS, NodeJS, C, Python, Ruby, Asp.Net, C#, Java, SQL
-google_analytics:
-show_downloads: true
-theme: jekyll-theme-architect
-
-gems:
-  - jekyll-mentions
-
