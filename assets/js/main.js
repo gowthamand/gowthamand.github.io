@@ -37,7 +37,7 @@ $(document).ready(function() {
     /* ======= Chart ========= */
 
     $('.chart').easyPieChart({
-		barColor:'#4585BC',//Pie chart colour
+		barColor:'#26a69a',//Pie chart colour
 		trackColor: '#e8e8e8',
 		scaleColor: false,
 		lineWidth : 5,

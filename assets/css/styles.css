@@ -10,7 +10,7 @@ body {
   position: relative;
 }
 a {
-  color: #4585BC;
+  color: #00897b;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -18,7 +18,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #0A5293;
+  color: #00796b;
 }
 a:focus {
   text-decoration: none;
@@ -28,7 +28,7 @@ p {
 }
 .btn,
 a.btn {
-  background: #0c5ea0;
+  background: #009688;
   color: #fff;
   padding: 8px 15px;
   -webkit-border-radius: 2px;
@@ -49,14 +49,14 @@ a.btn {
 .btn:hover,
 a.btn:hover {
   color: #fff;
-  background: #0A5293;
+  background: #00796b;
 }
 #topcontrol {
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
-  background: #1662A3;
+  background: #009688;
   color: #fff;
   text-align: center;
   display: inline-block;
@@ -81,7 +81,7 @@ a.btn:hover {
   cursor: pointer;
 }
 #topcontrol:hover {
-  background: #0A5293;
+  background: #00796b;
   color: #fff;
 }
 #topcontrol .fa {
@@ -91,7 +91,7 @@ a.btn:hover {
   font-weight: normal;
 }
 .header {
-  /*background: #6EA8DC;*/
+  /*background: #4db6ac;*/
   background-image: url("../img/background.jpg");
   color: #fff;
   position: relative;
@@ -133,12 +133,12 @@ a.btn:hover {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-  background-color: #0c5ea0;
+  background-color: #009688;
 }
 .header .social a:hover {
   color: #fff;
-  border-color: #0A5293;
-  background-color: #0A5293;
+  border-color: #00796b;
+  background-color: #00796b;
 }
 .header .actions {
   top: 15px;
@@ -190,7 +190,7 @@ a.btn:hover {
   padding-top: 26px;
 }
 .header .contact-info {
-  background: #4585BC;
+  background: #00897b;
   padding-top: 30px;
   padding-bottom: 30px;
   font-size: 16px;
@@ -226,7 +226,7 @@ a.btn:hover {
   z-index: 99;
 }
 .page-nav-wrapper {
-  background: #0A5293;
+  background: #00796b;
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -242,7 +242,7 @@ a.btn:hover {
   left: 0;
   width: 100%;
   z-index: 100;
-  background: #0A5293;
+  background: #00796b;
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -321,7 +321,7 @@ a.btn:hover {
   margin-bottom: 0;
 }
 .section-title {
-  color: #0A5293;
+  color: #00796b;
   margin-top: 0;
   margin-bottom: 45px;
   font-size: 24px;
@@ -337,7 +337,7 @@ a.btn:hover {
   font-size: 20px;
 }
 .timeline {
-  border-left: 3px solid #4585BC;
+  border-left: 3px solid #00897b;
   border-bottom-right-radius: 2px;
   border-top-right-radius: 2px;
   position: relative;
@@ -368,7 +368,7 @@ a.btn:hover {
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
   background: #fff;
-  border: 3px solid #4585BC;
+  border: 3px solid #00897b;
 }
 /*.timeline .item:after {
   content: "";
@@ -386,7 +386,7 @@ a.btn:hover {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #4585BC;
+  background: #00897b;
   z-index: 10;
 }*/
 .timeline .work-place {
@@ -414,7 +414,7 @@ a.btn:hover {
 }
 .timeline .job-meta .title {
   font-size: 18px;
-  color: #6EA8DC;
+  color: #4db6ac;
 }
 .timeline .job-meta .time {
   color: #8a8a8a;
@@ -430,7 +430,7 @@ a.btn:hover {
 }
 .education-section .degree {
   font-size: 18px;
-  color: #6EA8DC;
+  color: #4db6ac;
   margin-top: 0;
   margin-bottom: 0px;
 }
@@ -531,7 +531,7 @@ a.btn:hover {
   width: 36px;
   height: 36px;
   display: inline-block;
-  background: #6EA8DC;
+  background: #4db6ac;
   color: #fff;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -567,7 +567,7 @@ a.btn:hover {
   cursor: pointer;
 }
 .references-section .carousel-indicators li.active {
-  background-color: #6EA8DC;
+  background-color: #4db6ac;
   width: 10px;
   height: 10px;
   margin: 0;
@@ -596,8 +596,8 @@ a.btn:hover {
   margin-right: 0;
 }
 .portfolio-section .filters .type.active {
-  color: #6EA8DC;
-  border-bottom: 2px solid #6EA8DC;
+  color: #4db6ac;
+  border-bottom: 2px solid #4db6ac;
 }
 .portfolio-section .item {
   margin-bottom: 30px;
@@ -606,7 +606,7 @@ a.btn:hover {
   margin-bottom: 0;
 }
 .portfolio-section .item-inner {
-  background: #6EA8DC;
+  background: #4db6ac;
   color: #fff;
   -webkit-border-radius: 2px;
   -moz-border-radius: 2px;
@@ -622,7 +622,7 @@ a.btn:hover {
   box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
 .portfolio-section .item-inner:hover {
-  background: #0A5293;
+  background: #00796b;
 }
 .portfolio-section .item-inner:hover img {
   -webkit-opacity: 0.9;
@@ -671,7 +671,7 @@ a.btn:hover {
 }
 
 .footer {
-  background-color: #0A5293;
+  background-color: #00796b;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -886,7 +886,7 @@ a.btn:hover {
   border: 2px solid #fff;
 }
 .config-panel #color-options li.theme-1 a {
-  background: #6EA8DC;
+  background: #4db6ac;
 }
 .config-panel #color-options li.theme-2 a {
   background-color: #03A9F4;
