@@ -91,7 +91,7 @@ a.btn:hover {
   font-weight: normal;
 }
 .header {
-  /*background: #169fe6;*/
+  /*background: #4db6ac;*/
   background-image: url("../img/background.jpg");
   color: #fff;
   position: relative;
@@ -133,54 +133,13 @@ a.btn:hover {
   -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   -moz-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
-  /*background-color: #009688;*/
+  background-color: #009688;
 }
-.linkedIcon {
-  background-color: #0a73c4;
-}
-
-.facebookIcon {
-  background-color: #495ead;
-}
-
-.gitIcon {
-  background-color: #333;
-}
-
-.mailIcon {
-  background-color: #dc4a42;
-}
-
-.whatsAppIcon {
-  background-color: #46c756;
-}
-
-
-.linkedIcon:hover {
-  background-color: #085691;
-}
-
-.facebookIcon:hover {
-  background-color: #3c4e90;
-}
-
-.gitIcon:hover {
-  background-color: #1a1a1a;
-}
-
-.mailIcon:hover {
-  background-color: #c22b24;
-}
-
-.whatsAppIcon:hover {
-  background-color: #35b143;
-}
-
-/*.header .social a:hover {
+.header .social a:hover {
   color: #fff;
   border-color: #00796b;
   background-color: #00796b;
-}*/
+}
 .header .actions {
   top: 15px;
 }
@@ -255,10 +214,10 @@ a.btn:hover {
 .header .contact-info li .fa {
   margin-right: 10px;
 }
-/*.header .container {
+.header .container {
   padding-right: 17% !important;
   padding-left: 17% !important;
-}*/
+}
 
 /* Page Nav */
 .page-nav-space-holder {
@@ -267,9 +226,7 @@ a.btn:hover {
   z-index: 99;
 }
 .page-nav-wrapper {
-  /*background: #2d3e52;*/
   background: #00796b;
-  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
   padding-top: 20px;
   padding-bottom: 20px;
   position: absolute;
@@ -286,7 +243,6 @@ a.btn:hover {
   width: 100%;
   z-index: 100;
   background: #00796b;
-  /* background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
 }
 .page-nav-wrapper a {
   color: rgba(255, 255, 255, 0.6);
@@ -294,15 +250,13 @@ a.btn:hover {
   font-weight: 500;
 }
 .page-nav-wrapper .page-nav {
-  /* margin: 0 auto;
-   display: inline-block;*/
-  width:100%;
+  margin: 0 auto;
+  display: inline-block;
 }
 .page-nav-wrapper .page-nav li {
   margin-right: 30px;
   display: inline-block;
   background: none;
-  margin:0px auto;
 }
 .page-nav-wrapper .page-nav li:hover,
 .page-nav-wrapper .page-nav li:active {
@@ -335,16 +289,16 @@ a.btn:hover {
   position: relative;
   max-width: 100% !important;
   background-color: #f5f5f5;
-  margin-bottom:180px;
+  margin-bottom: 380px;
   z-index: 98;
 }
 
 .container {
-  width: 100%;
-  padding-right: 8%;
-  padding-left: 8%;
-  margin-right: auto;
-  margin-left: auto;
+    width: 100%;
+    padding-right: 8%;
+    padding-left: 8%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .section {
@@ -416,6 +370,25 @@ a.btn:hover {
   background: #fff;
   border: 3px solid #00897b;
 }
+/*.timeline .item:after {
+  content: "";
+  position: absolute;
+  left: -37px;
+  top: 6px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #00897b;
+  z-index: 10;
+}*/
 .timeline .work-place {
   position: relative;
 }
@@ -432,7 +405,7 @@ a.btn:hover {
   margin-top: 0;
   margin-bottom: 15px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 300;
 }
 .timeline .job-meta {
   position: absolute;
@@ -442,7 +415,6 @@ a.btn:hover {
 .timeline .job-meta .title {
   font-size: 18px;
   color: #4db6ac;
-  font-weight:500;
 }
 .timeline .job-meta .time {
   color: #8a8a8a;
@@ -720,9 +692,6 @@ a.btn:hover {
 
 /* Extra small devices (phones, less than 768px) */
 @media (max-width: 767px) {
-  .timeline .location {
-    position: relative;
-  }
   .header .social {
     margin: 0 auto;
     text-align: center;
@@ -917,13 +886,13 @@ a.btn:hover {
   border: 2px solid #fff;
 }
 .config-panel #color-options li.theme-1 a {
-  background: #169fe6;
+  background: #4db6ac;
 }
 .config-panel #color-options li.theme-2 a {
   background-color: #03A9F4;
 }
 .config-panel #color-options li.theme-3 a {
-  background-color: #169fe6;
+  background-color: #009688;
 }
 .config-panel #color-options li.theme-4 a {
   background-color: #4CAF50;
@@ -977,9 +946,9 @@ a.btn:hover {
   display: none;
   position: fixed;
   background-color: #bed0e0;
-  min-height: 150px;
-  padding:50px 5px;
-  text-align:center;
+  min-height: 330px;
+  padding: 55px 5px;
+  text-align: center;
   width: 100%;
   bottom: 30px;
   left: 0;
