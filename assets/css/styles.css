@@ -176,6 +176,15 @@ a.btn:hover {
   background-color: #35b143;
 }
 
+
+@media (max-width: 720px) {
+  .sm50{width:48% !important; }
+}
+
+@media (max-width: 450px) {
+  .sm50{width:100% !important; }
+}
+
 /*.header .social a:hover {
   color: #fff;
   border-color: #00796b;
