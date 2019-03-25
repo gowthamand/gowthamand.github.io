@@ -154,6 +154,9 @@ a.btn:hover {
 .whatsAppIcon {
   background-color: #46c756;
 }
+.instaGram {
+    background-color: #e4405f;
+}
 
 
 .linkedIcon:hover {
@@ -175,7 +178,9 @@ a.btn:hover {
 .whatsAppIcon:hover {
   background-color: #35b143;
 }
-
+.instaGram:hover {
+    background-color: #c91d3c;
+}
 
 @media (max-width: 720px) {
   .sm50{width:48% !important; }
