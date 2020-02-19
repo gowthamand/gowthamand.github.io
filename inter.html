@@ -181,7 +181,11 @@ ngOnInit(){
 
 		<h5>What is databing ?</h5>
 		<p>Data binding is a core concept in Angular and allows to define communication between a component and the DOM, making it very easy to define interactive applications without worrying about pushing and pulling data</p>
-
+		<p>From the Component to the DOM: Interpolation: {{ value }}</p>
+		<p>Property binding: [property]=”value”</p>
+		<p>From the DOM to the Component: Event binding: (event)=”function”</p>
+		<p>Two-way binding: Two-way data binding: [(ngModel)]=”value”</p>
+		
 		<h5>What is the d/w let and var ?</h5>
 		<p>The main difference is the scope difference, while let can be only available inside the scope it's declared, like in for loop, var can be accessed outside the loop for example. ... This is unlike the var keyword, which defines a variable globally, or locally to an entire function regardless of block scope</p>
 
@@ -213,6 +217,11 @@ ngOnInit(){
 	<p>The primitive types include number, Boolean and string, whereas, object types include modules, classes and interfaces.</p>
 	<h5>Why Enum in Typescript.</h5>
 	<p>in languages like C#, an ‘enum’ is an easy way of giving friendly names to sets of numeric values</p>
+	<h5>What is metadata? </h5>
+	<p>Class decorators, e.g. @Component and @NgModule </p>
+	<p>Property decorators Used for properties inside classes, e.g. @Input and @Output</p>
+	<p>Method decorators Used for methods inside classes, e.g. @HostListener </p>
+	<p>Parameter decorators Used for parameters inside class constructors, e.g. @Inject </p>
 	<script>
 		const array = [20,25,15,64,78,65,10,35,45,68,38,63];
 		// console.log(array);
