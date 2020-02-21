@@ -222,6 +222,24 @@ ngOnInit(){
 	<p>Property decorators Used for properties inside classes, e.g. @Input and @Output</p>
 	<p>Method decorators Used for methods inside classes, e.g. @HostListener </p>
 	<p>Parameter decorators Used for parameters inside class constructors, e.g. @Inject </p>
+
+	<h5>What are directives?</h5>
+	<p>Directives add behaviour to an existing DOM element or an existing component instance.</p>
+<xmp>
+	import { Directive, ElementRef, Input } from '@angular/core';
+
+	@Directive({ selector: '[myHighlight]' })
+	export class HighlightDirective {
+	constructor(el: ElementRef) {
+		el.nativeElement.style.backgroundColor = 'yellow';
+		}
+	}
+	<p myHighlight>Highlight me!</p>
+</xmp>
+
+
+
+
 	<script>
 		const array = [20,25,15,64,78,65,10,35,45,68,38,63];
 		// console.log(array);
