@@ -30,7 +30,7 @@
 	<h5>What is the difference between an observable and a subject?</h5>
 	<p>Probably a more important distinction between Subject and Observable is that a Subject has state, it keeps a list of observers. On the other hand, an Observable is really just a function that sets up observation. </p>
 	<h5>How would you pass data from a parent component to a child component?</h5>
-	<pre>
+	<xmp>
 		export class UserComponent implements OnInit{
 		parentMessage: "Gowthaman";
 		constructor(){}
@@ -46,10 +46,10 @@ ngOnInit(){
 
 }
 }
-< app-about [childMessge]="parentMessage" >< /app-about >
-</pre>
+<app-about [childMessge]="parentMessage" ></app-about>
+<xmp>
 <h5>How would you pass data from a child component to a parent component?</h5>
-<pre>
+<xmp>
 	export class ChildComponent implements OnInit{
 	@Output() onDatePicked: EventEmitter<any> = new EventEmitter<any>();
 		constructor(){}
@@ -59,14 +59,14 @@ ngOnInit(){
 	}
 }
 
-</pre>
+</xmp>
 // parent
-<pre>
+<xmp>
 	< calendar (onDatePicked)="doSomething($event)"></ calendar>
 	public doSomething(date: any):void {
 	console.log('Picked date: ', date);
 }
-</pre>
+</xmp>
 <h5>When do you use template driven vs model driven forms? Why?</h5>
 <p>Template-driven forms are asynchronous in nature, whereas Reactive forms are mostly synchronous. In a template-driven approach, most of the logic is driven from the template, whereas in reactive-driven approach, the logic resides mainly in the component or typescript code</p>
 <h5>different ways how you would get data to your components from a service and talk about why would you use one way vs the other?</h5>
@@ -235,6 +235,14 @@ ngOnInit(){
 		}
 	}
 	<p myHighlight>Highlight me!</p>
+	Component Directives <br>
+
+	These form the main class having details of how the component should be processed, instantiated and used at runtime.
+	Structural Directives<br>
+
+	<p>A structure directive basically deals with manipulating the dom elements. Structural directives have a * sign before the directive. For example, *ngIf and *ngFor.</p>
+	Attribute Directives <br>
+	<p>Attribute directives deal with changing the look and behavior of the dom element. You can create your own directives as explained in the below section.</p>
 </xmp>
 
 
