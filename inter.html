@@ -62,7 +62,7 @@ ngOnInit(){
 </xmp>
 // parent
 <xmp>
-	< calendar (onDatePicked)="doSomething($event)"></ calendar>
+	<calendar (onDatePicked)="doSomething($event)"></calendar>
 	public doSomething(date: any):void {
 	console.log('Picked date: ', date);
 }
