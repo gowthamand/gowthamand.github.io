@@ -1002,7 +1002,13 @@ a.btn:hover {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
-
+ 
 .copyright {
   font-size: 14px;
+}
+.typedname {
+  color: #FFFFFF !important;
+}
+span.typed-cursor {
+  display: none !important;
 }

@@ -3,6 +3,26 @@ $(document).ready(function() {
     /* ======= Scrollspy ======= */
    $('body').scrollspy({ target: '#page-nav-wrapper', offset: 100});
 
+
+   const typed = $(".typed");
+
+   $(function() {
+       typed.typed({
+           strings: ["Gowthaman.", "Angular Developer.", "Senior Software Developer."],
+           typeSpeed: 100,
+           loop: true,
+       });
+   });
+   const typedname = $(".typedname");
+
+   $(function() {
+       typedname.typed({
+           strings: ["GOWTHAMAN. D"],
+           typeSpeed: 400,
+           loop: true,
+       });
+   });
+
     /* ======= ScrollTo ======= */
     $('.scrollto').on('click', function(e){
 
