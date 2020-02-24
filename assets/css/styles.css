@@ -158,6 +158,9 @@ a.btn:hover {
     background-color: #e4405f;
 }
 
+.pinterstIcon {
+  background-color: #cc3627;
+}
 
 .linkedIcon:hover {
   background-color: #085691;
@@ -1002,13 +1005,7 @@ a.btn:hover {
   padding-right: 0px !important;
   padding-left: 0px !important;
 }
- 
+
 .copyright {
   font-size: 14px;
-}
-.typedname {
-  color: #FFFFFF !important;
-}
-span.typed-cursor {
-  display: none !important;
 }
