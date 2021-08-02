@@ -244,10 +244,25 @@ ngOnInit(){
 	Attribute Directives <br>
 	<p>Attribute directives deal with changing the look and behavior of the dom element. You can create your own directives as explained in the below section.</p>
 </xmp>
+<h5>Math atan2</h5>
+<p>The Math. atan2() method returns a numeric value between -π and π representing the angle theta of an (x, y) point. This is the counterclockwise angle, measured in radians, between the positive X axis, and the point (x, y).</p>
+<img src="assets/img/atten.png" alt="atten">
+<xmp>
+	Math.atan2(90, 15); // 1.4056476493802699
+	Math.atan2(15, 90); // 0.16514867741462683
 
-
-
-
+	Math.atan2(±0, -0);               // ±PI.
+	Math.atan2(±0, +0);               // ±0.
+	Math.atan2(±0, -x);               // ±PI for x > 0.
+	Math.atan2(±0, x);                // ±0 for x > 0.
+	Math.atan2(-y, ±0);               // -PI/2 for y > 0.
+	Math.atan2(y, ±0);                // PI/2 for y > 0.
+	Math.atan2(±y, -Infinity);        // ±PI for finite y > 0.
+	Math.atan2(±y, +Infinity);        // ±0 for finite y > 0.
+	Math.atan2(±Infinity, x);         // ±PI/2 for finite x.
+	Math.atan2(±Infinity, -Infinity); // ±3*PI/4.
+	Math.atan2(±Infinity, +Infinity); // ±PI/4.
+</xmp>
 	<script>
 		const array = [20,25,15,64,78,65,10,35,45,68,38,63];
 		// console.log(array);
