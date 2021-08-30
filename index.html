@@ -28,9 +28,9 @@
     <!-- custom js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/gowthamand/gowthamand.github.io/assets/js/main.js"></script>
     <script type="text/javascript">
+        document.getElementById("cp").innerText = new Date().getFullYear()
         $(document).ready(function () {
             setTimeout(load, 3000);
-
             function load() {
                 $("#loading").show();
                 $(window).on('load', function () {
@@ -47,8 +47,7 @@
             $(".twoYear").text(calculateExp('01/25/2017'));
             $(".twoHalf").text(calculateExp('06/25/2017'));
             $(".oneHalfYear").text(calculateExp('01/25/2018'));
-            $(".halfYear").text(calculateExp('06/25/2018'));
-            $('.cp').text(new Date().getFullYear());
+            $(".halfYear").text(calculateExp('06/25/2018'));           
         });
     </script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -916,7 +915,7 @@
 <footer class="footer text-center">
     <div class="container">
         <small class="copyright">
-            <span class='cp'></span>
+            <span id='cp'></span>
             © Gowthaman D
         </small>
     </div>
