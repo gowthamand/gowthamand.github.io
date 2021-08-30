@@ -28,7 +28,6 @@
     <!-- custom js -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/gowthamand/gowthamand.github.io/assets/js/main.js"></script>
     <script type="text/javascript">
-        document.getElementById("cp").innerText = new Date().getFullYear();
         $(document).ready(function () {
             setTimeout(load, 3000);
             function load() {
@@ -37,6 +36,7 @@
                     $('#loading').fadeOut('slow');
                 });
             }
+            document.getElementById("cp").innerText = new Date().getFullYear();
         });
     </script>
     <script>
