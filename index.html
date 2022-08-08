@@ -42,6 +42,7 @@
     <script>
         $(document).ready(function () {
             $(".totalExp").text(calculateExp('01/10/2016'));
+            $(".currentExp").text(calculateExp('31/03/2020'));
             $(".basic").text(calculateExp('01/25/2016'));
             $(".oneYear").text(calculateExp('01/25/2018'));
             $(".twoYear").text(calculateExp('01/25/2017'));
@@ -128,7 +129,7 @@
 
             <div class="item">
                 <div class="work-place">
-                    <h3 class="place">Mirafra Technology Private Limited.</h3>
+                    <h3 class="place">Mirafra Technology Private Limited.<span class="currentExp"></spna></h3>
                     <div class="location"><i class="fa fa-map-marker" aria-hidden="true"></i>Bangalore</div>
                 </div>
                 <div class="job-meta">
