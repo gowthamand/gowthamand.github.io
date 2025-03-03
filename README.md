@@ -1,7 +1,7 @@
 
-## [gowthaman-d.in](https://gowthaman-d.in/)
+## [gowthamand.github.io](https://gowthamand.github.io/)
 
 
 
-# [gowthaman-d.in](https://gowthaman-d.in/)
+# [gowthamand.github.io](https://gowthamand.github.io/)
 
